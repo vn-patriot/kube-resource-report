@@ -11,7 +11,7 @@ import tokens
 from requests.auth import AuthBase
 
 # default URL points to kubectl proxy
-DEFAULT_CLUSTERS = "http://localhost:8001/"
+DEFAULT_CLUSTERS = "http://docker.for.mac.host.internal:8001/"
 CLUSTER_ID_INVALID_CHARS = re.compile("[^a-z0-9:-]")
 
 logger = logging.getLogger(__name__)
